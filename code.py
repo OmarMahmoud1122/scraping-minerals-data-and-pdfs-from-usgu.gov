@@ -83,5 +83,5 @@ if __name__ == '__main__':
     df2 = pd.DataFrame(alls)
     df2.columns = df2.columns + 1
     df = pd.concat([df1,df2],axis= 1)
-    df.to_csv(r"C:\Users\omars\OneDrive\Desktop\data2.csv")
+    df.to_csv(#path to save csv file in)
     print(df)
